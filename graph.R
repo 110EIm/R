@@ -41,14 +41,14 @@ v1 <- 1:5
 v2 <- 5:1
 v3 <- 3:7
 
-plot(v1, type = 's', col = 'red', ylim = c(1, 5))
-par(new = T)
-plot(v2, type = 'o', col = 'blue', ylim = c(1, 5))
-par(new = T)
-plot(v3, type = 'l', col = 'green', ylim = c(1, 5))
+plot(v1, type = 's', col = 'red', ylim = c(1, 7))
+par(new = TRUE)
+plot(v2, type = 'o', col = 'blue', ylim = c(1, 7))
+par(new = TRUE)
+plot(v3, type = 'l', col = 'green', ylim = c(1, 7))
 
-plot(v1, type = 's', col = 'red', ylim = c(1, 5))
-lines(v2, type = 'o', col = 'blue', ylim = c(1, 5))
-lines(v3, type = 'l', col = 'green', ylim = c(1, 15))
+plot(v1, type = 's', col = 'red', ylim = c(1, 7))
+lines(v2, type = 'o', col = 'blue')
+lines(v3, type = 'l', col = 'green')
 
 legend(4, 9, c('v1', 'v2', 'v3'), cex = 0.9, col = c('red', 'blue', 'green'), lty = 1)
