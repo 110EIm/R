@@ -9,6 +9,7 @@ x <- matrix(5:2, 2, 2)
 names <- c('kim', 'park')
 color <- c('green', 'yellow')
 
+
 barplot(x, names = names, col = color)
 
 barplot(x, names = names, col = color, ylim = c(0, 12))
